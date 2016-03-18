@@ -1,5 +1,0 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "ff929c79ef66806645460f1c9cd7a796"
-build_time: [511639470, 596569000]
-inputs:
-  "/Users/ivanbruel/Documents/KittenKit/KittenKit/Kitten.swift": [511635752, 0]
