@@ -1,0 +1,6 @@
+framework module KittenKit {
+  umbrella header "KittenKit.h"
+
+  export *
+  module * { export * }
+}
