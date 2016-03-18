@@ -1,0 +1,10 @@
+framework module KittenKit {
+  umbrella header "KittenKit.h"
+
+  export *
+  module * { export * }
+}
+
+module KittenKit.__Swift {
+    exclude header "KittenKit-Swift.h"
+}

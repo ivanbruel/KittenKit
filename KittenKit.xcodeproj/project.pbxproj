@@ -10,6 +10,8 @@
 		30EEB43E1C9C69B000FD420F /* KittenKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EEB43D1C9C69B000FD420F /* KittenKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30EEB4451C9C69B000FD420F /* KittenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EEB43A1C9C69B000FD420F /* KittenKit.framework */; };
 		30EEB44A1C9C69B000FD420F /* KittenKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEB4491C9C69B000FD420F /* KittenKitTests.swift */; };
+		30EEB4551C9C6BDF00FD420F /* Kitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEB4541C9C6BDF00FD420F /* Kitten.swift */; };
+		30EEB4561C9C6BDF00FD420F /* Kitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEB4541C9C6BDF00FD420F /* Kitten.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		30EEB4441C9C69B000FD420F /* KittenKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EEB4491C9C69B000FD420F /* KittenKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenKitTests.swift; sourceTree = "<group>"; };
 		30EEB44B1C9C69B000FD420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EEB4541C9C6BDF00FD420F /* Kitten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kitten.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 			children = (
 				30EEB43D1C9C69B000FD420F /* KittenKit.h */,
 				30EEB43F1C9C69B000FD420F /* Info.plist */,
+				30EEB4541C9C6BDF00FD420F /* Kitten.swift */,
 			);
 			path = KittenKit;
 			sourceTree = "<group>";
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EEB4551C9C6BDF00FD420F /* Kitten.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EEB4561C9C6BDF00FD420F /* Kitten.swift in Sources */,
 				30EEB44A1C9C69B000FD420F /* KittenKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +314,7 @@
 		30EEB44F1C9C69B000FD420F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -315,15 +322,18 @@
 				INFOPLIST_FILE = KittenKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = vc.faber.KittenKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		30EEB4501C9C69B000FD420F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

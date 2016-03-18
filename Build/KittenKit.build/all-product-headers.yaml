@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ivanbruel/Documents/KittenKit/Build/Products/Debug-iphonesimulator/KittenKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KittenKit-Swift.h",
+          'external-contents': "/Users/ivanbruel/Documents/KittenKit/Build/Products/Debug-iphonesimulator/KittenKit.framework/Headers/KittenKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KittenKit.h",
+          'external-contents': "/Users/ivanbruel/Documents/KittenKit/KittenKit/KittenKit.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ivanbruel/Documents/KittenKit/Build/Products/Debug-iphonesimulator/KittenKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ivanbruel/Documents/KittenKit/build/KittenKit.build/Debug-iphonesimulator/KittenKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
